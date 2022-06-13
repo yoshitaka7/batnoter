@@ -15,3 +15,24 @@
 .App-link {
   color: rgb(112, 76, 182);
 }
+
+:root {
+  --bg-color: #fff;
+  --text-color: #333;
+  --header-bg-color: #eee;
+}
+
+body.dark-theme {
+  --bg-color:  #333;
+  --text-color:  #ddd;
+  --header-bg-color:  #222;
+}
+
+body {
+  background-color: var(--bg-color)!important;
+  color: var(--text-color)!important;
+}
+
+.header {
+  background-color: var(--header-bg-color) !important;
+}
